@@ -229,7 +229,7 @@ modern sophistication, featuring weathered wood, sleek metal accents.
 
             <div class="lg:flex justify-between ">
                 <!-- left  -->
-                <div class="lg:flex gap-4 w-3/5 border-2 border-gray-200 rounded-lg p-4">
+                <div class="lg:flex gap-4 lg:w-3/5 border-2 border-gray-200 rounded-lg p-4">
                     <div class="rounded-lg">
                         <img class="h-[150px] w-[300px]" src="./assets/img1.png" alt="">
 
@@ -255,17 +255,68 @@ modern sophistication, featuring weathered wood, sleek metal accents.
             </div>
 
             <!-- low part  -->
-             <div class="grid lg">
-                <div>
+             <div class="grid lg:grid-cols-4 grid-cols-1  gap-4">
+                <div class="border-2 border-gray-200 p-4">
+                    <img class="h-[150px] w-[300px]" src="./assets/img3.png" alt="">
+                    </div>
+                
+
+                <!-- middle part  -->
+                <div class=" col-span-2 lg:flex gap-4  border-2 border-gray-200 rounded-lg p-4">
+                    <div class="rounded-lg">
+                        <img class="h-[150px] w-[300px]" src="./assets/img1.png" alt="">
+
+                    </div>
+                    <div class="space-y-4">
+                        <h4 class="text-bg font-bold ">Commercial</h4>
+                        <p class="text-gray-500 text-sm">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                        <div class="flex">
+                        <button class="text-bg font-bold">View Details</button><i class="-rotate-45 fa-solid fa-arrow-right w-7 h-7 bg-rent-primary rounded-full flex justify-center items-center "></i>
+                        </div>
+
+                    </div>
+
 
                 </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
+                <div class="border-2 border-gray-200 p-4">
+                    <img class="h-[150px] w-[300px]" src="./assets/img5.png" alt="">
+                    </div>
              </div>
+        </section>
+
+
+        <section class="bg-[url(./assets/bg.jpg)] bg-cover">
+            <div class="md:container mx-auto py-14 px-4 lg:w-4/6">
+                <div class="text-center space-y-3">
+                    <button class="py-1 px-2 rounded-lg bg-rent-primary bg-opacity-70 font-bold"><i class="fa-solid fa-arrow-right mr-1"></i>Let's Connect</button>
+                    <h2 class="text-5xl font-bold"> Let's Discuss Next Project</h2>
+                    <p class="text-sm text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+
+                </div>
+
+                <!-- grid input -->
+                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-5   ">
+                    <div class="bg-white rounded-full p-3">
+                        <input placeholder="First Name*" type="text">
+                    </div>
+                    <div class="bg-white rounded-full p-3">
+                        <input placeholder="Last Name*" type="text">
+                    </div>
+                    <div class="bg-white rounded-full p-3">
+                        <input placeholder="Phone Number*" type="text">
+                    </div>
+                    <div class="bg-white rounded-full p-3">
+                        <input placeholder="Email Address*" type="text">
+                    </div>
+                    <div class="bg-white rounded-lg  lg:col-span-2 p-2 h-40 ">
+                        <textarea placeholder="Write your message here" name="" id=""></textarea>
+                    </div>
+                 </div>
+
+                 <button class="bg-rent-primary rounded-full w-full font-bold mt-5 p-2">Send Mail<i class="fa-solid fa-arrow-right mr-1 -rotate-45 bg-black text-white rounded-full h-5 w-5 ml-1  "></i></button>
+                
+
+            </div>
         </section>
 
       </main>
